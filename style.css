@@ -1,0 +1,30 @@
+body {
+    background-color: lightslategray;
+    text-align: center;
+    font-weight: 100;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#dice, #diceP21, #diceP22 {
+    height: 20em;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.show {
+    display: flex !important;
+}
+
+#p2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.diceContaier {
+    width: 40%;
+    height: 20em;
+}

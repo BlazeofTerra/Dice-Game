@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice game</title>
+</head>
+<body>
+    <div id="playerHolder">
+        <button id="player1">1 Player</button>
+        <button id="player2">Pretend 2 Player</button>
+    </div>
+    <div id="p1" class="hidden">
+        <div class="diceContaier">
+            <h1>1 Player Dice</h1>
+
+            <img id="dice" src="sides/blank.png" alt="">
+        
+            <p id="tally">Points: 0/20</p>
+        
+            <button id="rollBtn1">Lady luck poker</button>
+            <button id="reset1">Reset</button>
+            <button id="resetF">Full reset</button>
+            
+            <div class="text">
+                <h3 id="win" class="hidden">Lady luck kisses you.</h3>
+                <h3 id="lose" class="hidden"><i>Slap</i>.</h3>
+            </div>
+        </div>
+    </div>
+    
+    <div id="p2" class="hidden">
+        <h1>"2" Player Dice</h1>
+
+        <div class="diceContaier">
+            <img id="diceP21" src="sides/blank.png" alt="">
+    
+            <p id="tallyP21">Points: 0/20</p>
+        
+            <button id="rollBtn1P21">Lady luck poker</button>
+            <button id="reset1P21">Reset</button>
+            <button id="resetFP21">Full reset</button>
+            
+            <div class="text">
+                <h3 id="winP21" class="hidden">Lady luck kisses you.</h3>
+                <h3 id="loseP21" class="hidden"><i>Slap</i>.</h3>
+            </div>
+        </div>
+        
+        <div class="diceContaier">
+            <img id="diceP22" src="sides/blank.png" alt="">
+    
+            <p id="tallyP22">Points: 0/20</p>
+        
+            <button id="rollBtn1P22">Lady luck poker</button>
+            <button id="reset1P22">Reset</button>
+            <button id="resetFP22">Full reset</button>
+            
+            <div class="text">
+                <h3 id="winP22" class="hidden">Lady luck kisses you.</h3>
+                <h3 id="loseP22" class="hidden"><i>Slap</i>.</h3>
+            </div>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
